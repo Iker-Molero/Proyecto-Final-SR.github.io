@@ -1,0 +1,290 @@
+body{
+    background-color: black;   
+}
+.leftdiv{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: none;
+    padding: none;
+    width: 530px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+    .div1{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-color: #070707;
+        height: 580px;
+        width: 530px;
+        display: flex;
+        flex-direction: column;
+    }
+        .div1 > .title{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            background-color: #FF5C00;
+            height: 50px;
+            width: inherit;
+        }
+            .div1 > .title > p{
+                position: relative;
+                margin: 0;
+                padding: 0;
+                top: 50%;
+                transform: translate(0%, -50%);
+                text-align: center;
+                font-size: 35px;
+                text-transform: uppercase;
+                font-family: 'Inter', sans-serif;
+                font-style: italic;
+            }
+        .div1 > .tilescontainer{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            background-color: #070707;
+            height: 530px;
+            width: 530px;
+            display: grid;
+            grid-template-columns: repeat(3, 0fr);
+            grid-template-rows: repeat(3, 0fr);
+        }
+            .div1 > .tilescontainer > .tile{
+                position: relative;
+                margin-left: 20px;
+                margin-top: 20px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                background-color: white;
+                height: 150px;
+                width: 150px;
+            }
+    .div2{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-color: #070707;
+        height: 410px;
+        width: 530px;
+        display: flex;
+        flex-direction: column;
+    }
+        .div2 > .title{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            background-color: #FAFF00;
+            height: 50px;
+            width: inherit;
+        }
+            .div2 > .title > p{
+                position: relative;
+                margin: 0;
+                padding: 0;
+                top: 50%;
+                transform: translate(0%, -50%);
+                text-align: center;
+                font-size: 35px;
+                text-transform: uppercase;
+                font-family: 'Inter', sans-serif;
+                font-style: italic;
+            }
+        .div2 > .tilescontainer{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            background-color: #070707;
+            height: 360px;
+            width: inherit;
+            display: grid;
+            grid-template-columns: repeat(3, 0fr);
+            grid-template-rows: repeat(3, 0fr);
+        }
+            .div2 > .tilescontainer > .tile{
+                position: relative;
+                margin-left: 20px;
+                margin-top: 20px;
+                margin-right: 0px;
+                margin-bottom: 0px;
+                padding: auto;
+                background-color: white;
+                height: 150px;
+                width: 150px;
+            }
+.centerdiv{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+    transform: translate(-50%);
+    background-color: blue;
+    margin: none;
+    padding: none;
+    width: 800px;
+    height: 100vh;
+}
+.rightdiv{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: none;
+    padding: none;
+    width: 530px;
+    height: 100vh;
+}
+.div3{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #070707;
+    height: 410px;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+}
+    .div3 > .title{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-color: #3300FF;
+        height: 50px;
+        width: inherit;
+    }
+        .div3 > .title > p{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            transform: translate(0%, -50%);
+            text-align: center;
+            font-size: 35px;
+            text-transform: uppercase;
+            font-family: 'Inter', sans-serif;
+            font-style: italic;
+        }
+    .div3 > .tilescontainer{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-color: #070707;
+        height: 360px;
+        width: 530px;
+        display: grid;
+        grid-template-columns: repeat(3, 0fr);
+        grid-template-rows: repeat(3, 0fr);
+    }
+        .div3 > .tilescontainer > .tile{
+            position: relative;
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            background-color: white;
+            height: 150px;
+            width: 150px;
+        }
+.div4{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #070707;
+    height: 240px;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+}
+    .div4 > .title{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-color: #61FF00;
+        height: 50px;
+        width: inherit;
+    }
+        .div4 > .title > p{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            transform: translate(0%, -50%);
+            text-align: center;
+            font-size: 35px;
+            text-transform: uppercase;
+            font-family: 'Inter', sans-serif;
+            font-style: italic;
+        }
+    .div4 > .tilescontainer{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-color: #070707;
+        height: 190px;
+        width: 530px;
+        display: grid;
+        grid-template-columns: repeat(3, 0fr);
+        grid-template-rows: repeat(3, 0fr);
+    }
+        .div4 > .tilescontainer > .tile{
+            position: relative;
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            background-color: white;
+            height: 150px;
+            width: 150px;
+        }
+.div5{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #070707;
+    height: 410px;
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+}
+    .div5 > .title{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-color: #BD00FF;
+        height: 50px;
+        width: inherit;
+    }
+        .div5 > .title > p{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            transform: translate(0%, -50%);
+            text-align: center;
+            font-size: 35px;
+            text-transform: uppercase;
+            font-family: 'Inter', sans-serif;
+            font-style: italic;
+        }
+    .div5 > .tilescontainer{
+        position: relative;
+        margin: 0;
+        padding: 0;
+        background-color: #070707;
+        height: 360px;
+        width: 530px;
+        display: grid;
+        grid-template-columns: repeat(3, 0fr);
+        grid-template-rows: repeat(3, 0fr);
+    }
+        .div5 > .tilescontainer > .tile{
+            position: relative;
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            background-color: white;
+            height: 150px;
+            width: 150px;
+        }
