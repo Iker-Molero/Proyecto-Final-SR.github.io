@@ -9,7 +9,6 @@ class Vehiculo {
         this.radio = 3;
         let aleatorio = random(130, 20);
         this.color = color(255, aleatorio, (aleatorio - 30));
-        console.log(this.color);
     }
 
     screenWrapping() {

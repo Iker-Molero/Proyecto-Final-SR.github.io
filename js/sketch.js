@@ -2,7 +2,7 @@ const banco = [];
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    for (let i = 0; i < 150; i++){
+    for (let i = 0; i < 100; i++){
         banco.push(new Vehiculo());
     }
 }
