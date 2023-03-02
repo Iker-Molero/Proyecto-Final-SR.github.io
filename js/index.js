@@ -668,3 +668,8 @@ function CerrarModal(){
     divPrincipal.classList.remove("hide");
     modal.classList.add("hide");
 }
+function Enlace(){
+    window.open(
+    'https://fondoseuropeosdigitalizacion.es/#:~:text=Al%20abrir%20las%20convocatorias%2C%20el,de%20un%20año%20de%20duración',
+    '_blank');
+}

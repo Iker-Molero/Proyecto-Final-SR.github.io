@@ -12,13 +12,16 @@ body{
 .main{
     position: absolute;
     width: 800px;
-    height: 650px;
+    height: 700px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template:
+        'wide wide wide wide wide'
+}
+.wide-tile{
+    grid-area: wide;
 }
 .tile{
     background-color: rgba(10, 10, 10, .1);
@@ -44,7 +47,33 @@ body{
 .tile:hover > img{
     opacity: 0.75;
 }
-
+.wide-tile{
+    background-color: rgba(10, 10, 10, .1);
+    position: relative;
+    width: 800px;
+    height: 50px;
+    margin: auto;
+    padding: auto;
+    border-radius: 10px;
+}
+    .wide-tile > p{
+        position: relative;
+        margin: 0px;
+        margin-left: 10px;
+        font-size: 45px;
+        top: 45%;
+        transform: translate(0%, -50%);
+        font-family: 'Tilt Neon', cursive;
+        text-align: center;
+        opacity: 0.1;
+        color: white;
+    }
+.wide-tile:hover{
+    background-color: rgba(10, 10, 10, .5); 
+}
+.wide-tile:hover > p{
+    opacity: 0.75;
+}
 .modal{
     position: absolute;
     width: 790px;
