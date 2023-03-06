@@ -90,7 +90,7 @@ function AbrirModal(index){
                     <p>
                         Una red privada virtual es una tecnología de
                         red de ordenadores que permite una extensión 
-                        egura de la red de área local sobre una red
+                        segura de la red de área local sobre una red
                         pública o no controlada como Internet.
                     </p>
                 </div>
