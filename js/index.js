@@ -374,7 +374,7 @@ function AbrirModal(index){
             <div class="top-wrapper">
                 <div class="title">
                     <p>
-                        Incibe
+                        INCIBE
                     </p>
                 </div>
                 <div class="close" onclick="CerrarModal()">
@@ -391,7 +391,7 @@ function AbrirModal(index){
                 </div>
                 <div class="links-wrapper">
                     <div class="link">
-                        <a href="http://www.incibe.es" target="_blank">Incibe</a>
+                        <a href="http://www.incibe.es" target="_blank">INCIBE</a>
                     </div>
                 </div>
             </div>
